@@ -1,340 +1,117 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" data-tcc-ignore="">
+<html>
+<head>    
+    <style>
+    .main {
+        border: 3px solid #f1f1f1;
+        font-family: sans-serif;
+    }
 
-<head>
-    <title>I Luv My Wife</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Fredericka+the+Great|Allura|Amatic+SC|Arizonia|Averia+Sans+Libre|Cabin+Sketch|Francois+One|Jacques+Francois+Shadow|Josefin+Slab|Kaushan+Script|Love+Ya+Like+A+Sister|Merriweather|Offside|Open+Sans|Open+Sans+Condensed|Oswald|Over+the+Rainbow|Pacifico|Romanesco|Sacramento|Seaweed+Script|Special+Elite">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather|Strait">
-    <link rel="stylesheet" type="text/css" href="/content/css/site.css?v=">
-    <meta http-equiv="Content-Location" content="143.html">
-    <meta name="generator" content="Starfield Technologies; Go Daddy Website Builder 7.0.5350">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="I Luv My Wife">
-    <meta property="og:site_name" content="I luv my wife">
-    <meta property="og:url" content="http://iluvmywife.com/">
-    <meta property="og:image" content="//nebula.wsimg.com/109f8ad833ca53eaeee9f77506b9ed8a?AccessKeyId=1E4C21C6A7310F3E5ED8&amp;disposition=0&amp;alloworigin=1">
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
 
-    <!-- Lightbox stuff -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
-    <script src="/content/script/jquery-3.2.1.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
-</head>
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
 
-<body>
-    <style type="text/css">
+    button:hover {
+        opacity: 0.8;
+    }
 
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+    }
+
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+
+    img.avatar {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }
+
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+        span.psw {
+        display: block;
+        float: none;
+        }
+        .cancelbtn {
+        width: 100%;
+        }
+    }
     </style>
-    <div class="wsb-canvas body" style="background-color: #ffffff; background-image: url(/content/img/cloudy-sky.jpg); background-position-x: center; background-position-y: top; background-position: center top; background-repeat: repeat; position: fixed; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; overflow: hidden;">
-        <div class="wsb-canvas-page-container" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; overflow: auto;">
-            <div id="wsb-canvas-template-page" class="wsb-canvas-page page" style="height: 3393px; margin: auto; width: 200px; background-color: transparent; position: relative; margin-top: 0px">
-                <div id="wsb-canvas-template-container" style="position: absolute;">
-                    <div id="wsb-element-e9d384be-7d7d-421a-a158-87a99cc6c627" class="wsb-element-carousel" data-type="element">
-                        <div id="desktop-e9d384be-7d7d-421a-a158-87a99cc6c627" class="wsb-media-carousel ">
-                        </div>
-                        <script type="text/javascript">
-                            (function() { 
-                            var caroselAssets = [
-                                {
-                                    "id": "5dbdd1cab0a8ec44eeafea11bbcbf99c:1E4C21C6A7310F3E5ED8",
-                                    "src": "/content/gallery/beautiful.jpg",
-                                    "caption": "she's beautiful...",
-                                    "link": "",
-                                    "type": "image",
-                                    "style": "height: 125px; left: -48.4954px;"
-                                }, 
-                                {
-                                    "id": "049c58ac1b1bcb1fa2a758e3e56cbd17:1E4C21C6A7310F3E5ED8",
-                                    "src": "/content/gallery/resources-e21a88e2-92df-4fab-848c-a4c7cdd1185b-intelligent.jpg",
-                                    "caption": "she's intelligent...",
-                                    "link": "",
-                                    "type": "image",
-                                    "style": "width: 125px; top: -25.1623px;"
-                                }, 
-                                {
-                                    "id": "a452ba57dd2c69df2461d821e1f9b20a:1E4C21C6A7310F3E5ED8",
-                                    "src": "/content/gallery/resources-201d5535-b53a-4082-9e6e-ec8c5325f801-elegant.jpg",
-                                    "caption": "she's elegant...",
-                                    "link": "",
-                                    "type": "image",
-                                    "style": "width: 125px;top: -31.25px;"
-                                }, {
-                                    "id": "453448e84f834f2fd02aba5f37251138:1E4C21C6A7310F3E5ED8",
-                                    "src": "/content/gallery/resources-e12f4123-43c0-48f6-b218-97292d13a816-classy.jpg",
-                                    "caption": "she's classy...",
-                                    "link": "",
-                                    "type": "image",
-                                    "style": "width: 125px; top: -52.8846px;"
-                                }, {
-                                    "id": "7a306ff8de4d331ad4cc5d3a68d77d09:1E4C21C6A7310F3E5ED8",
-                                    "src": "/content/gallery/resources-84e08616-1125-4575-b005-fe042b4463cc-fun.JPG",
-                                    "caption": "she's a lot of fun...",
-                                    "link": "",
-                                    "type": "image",
-                                    "style": "height: 125px; left: -20.8333px;"
-                                }, {
-                                    "id": "05349620afc4978b6c5db053fa69e0c6:1E4C21C6A7310F3E5ED8",
-                                    "src": "/content/gallery/resources-e00f2d82-cd70-4fac-9c21-81b727815964-good vibe.JPG",
-                                    "caption": "she gives off a good vibe...",
-                                    "link": "",
-                                    "type": "image",
-                                    "style": "height: 125px; width: 125px; margin: 5px; display: inline-block; vertical-align: middle;"
-                                }, {
-                                    "id": "a6b2e9a6e89785ae440936a540587bbc:1E4C21C6A7310F3E5ED8",
-                                    "src": "/content/gallery/resources-72915311-cd22-4b41-b5e3-f9bbb29a4b22-cooking.jpg",
-                                    "caption": "she's a great cook...",
-                                    "link": "",
-                                    "type": "image",
-                                    "style": "height: 125px; left: -20.8333px;"
-                                }, {
-                                    "id": "44beea1d14e6bdeb8af197f07225cbb8:1E4C21C6A7310F3E5ED8",
-                                    "src": "/content/gallery/resources-4a1782d7-687b-4c16-aee4-d9b98897a125-sepia.png",
-                                    "caption": "...and a great mother to our wonderful daughter",
-                                    "link": "",
-                                    "type": "image",
-                                    "style": "height: 125px; left: -33.4076px;"
-                                }];
+    <script src='/content/script/jquery-3.2.1.min.js'></script>
+</head>
+<body>
 
-                                var carosel = $(".wsb-media-carousel");
-                                for(var i = 0; i < caroselAssets.length; i++) {
-                                    var asset = caroselAssets[i];
-                                    var html = getHtml(asset);
-                                    carosel.append(html);
+<div class='main'>
+  <div class="imgcontainer">
+    <h2>Please enter the password</h2>
+  </div>
 
-                                    function getHtml(asset) {
-                                        return '<a data-fancybox="group" class="wsb-media-carousel-wrapper img_rounded_corners" href="' + asset.src + '" title="' + asset.caption +'" data-fancybox-type="image" data-caption="' + asset.caption +'" style="height: 125px; width: 125px; margin: 5px; display: inline-block; vertical-align: middle;">' + 
-                                            '<img src="' + asset.src + '" style="'+ (asset.style || "") + '">' + 
-                                            '</a>';
-                                    }
-                                }
+  <div class="container">
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required id="pws">
+        
+    <button id='login'>Login</button>
+  </div>
+</div>
+    <script>
+        $(function() {
+            var p;
+            $.ajax({
+                url: "/content/script/auth.json",
+                success: function(data) {
+                    p = data.password;
+                }
+            })
+            $("#login").click(authenticate);
+            $("#pws").keypress(function(e) {
+                if (e.which == 13) {
+                    authenticate();
+                }
+            });
 
-                                $("[data-fancybox]").fancybox({
-                                    loop: false,
-                                    keyboard: true,
-                                    arrows: true
-                                });
+            function authenticate() {
+                var pw = $("#pws").val();
 
-
-                            })();
-                        </script>
-                    </div>
-                    <div id="wsb-element-dbe858aa-b765-4386-87a6-91046345d80f" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/resources-9e9789fc-f0b6-44cb-9963-3e6b8bb1c5a1-cropped-heart.png" style="vertical-align:middle;width:28px;height:25px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-ad638ad3-0c0b-400a-a734-03ec8816d1db" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/resources-63f91e55-2578-43c9-aa0e-d0c485d99ded-cropped-ringsroses.png" style="vertical-align:middle;width:97px;height:91px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-a922b6b8-8099-4e80-b92d-931b1b33148b" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/resources-083c6766-c926-4947-a057-975e8f3b6b35-roselove.gif" style="position:absolute;width:307px;height:342px;top:0px;left:0px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-7814c5c5-b940-43f4-9d23-b57720319ad3" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/resources-9e9789fc-f0b6-44cb-9963-3e6b8bb1c5a1-cropped-heart.png" style="vertical-align:middle;width:28px;height:25px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-469a3857-80ea-4892-94c5-f72f48a1ba18" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/resources-b900ca1a-8253-4113-b19e-c27e7157f752-cropped-ringsroses.png" style="vertical-align:middle;width:97px;height:91px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-0a638116-9c20-4162-b133-3fc390951e08" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/resources-99ca738d-4dbc-4552-861b-a5a3c01b3dbb-cropped-bigheart2.png" style="vertical-align:middle;width:368px;height:342px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-8e17194b-50c7-4e91-a161-4d2d6cd4cbe2" class="wsb-element-text" data-type="element">
-                        <div class="txt ">
-                            <p style="text-align: center;">
-                                <span style="color: rgb(0, 102, 153);">
-                                    <span style="font-size: 36px;">
-                                        <span style="font-family: arizonia;">I remember...</span>
-                                </span>
-                                </span>
-                                <br>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="wsb-element-8d84c4da-6cfd-473c-87f7-596d1d7d7507" class="wsb-element-text" data-type="element">
-                        <div class="txt ">
-                            <p style="text-align: center;">
-                                <span style="color: rgb(0, 102, 153);">
-                                    <span style="font-size: 36px;">
-                                        <span style="font-family: arizonia;">This is why I married her</span>
-                                </span>
-                                </span>
-                                <br>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="wsb-element-71561e76-573e-4efa-8899-8bf72cac7142" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/resources-9e062028-279a-43b8-8007-6122ffdae3db-rose effect.gif" style="position:absolute;width:88px;height:148px;top:0px;left:0px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-5aea60cb-6134-4e27-bdfb-3083f7e9d64e" class="wsb-element-youtube" data-type="element">
-                        <div>
-                            <div class="youtube">
-                                <iframe src="//www.youtube.com/embed/b54eyij7IfI?feature=oembed&amp;wmode=opaque&amp;theme=dark&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen="allowfullscreen" style="width:100%;height:100%;"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-34d7b1e4-c8f4-4320-977e-e4bf5fecc98e" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/the-end.png" style="vertical-align:middle;width:360px;height:196px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-ebd9f2a9-849f-4dcb-9e8b-5ff5d555e4a3" class="wsb-element-text" data-type="element">
-                        <div class="txt ">
-                            <p style="text-align: center;">
-                                <span style="color: rgb(0, 102, 153);">
-                                    <span style="font-size: 36px;">
-                                        <span style="font-family: arizonia;">There are many reasons why I L&nbsp;&nbsp; v My Wife...<br>
-                                        </span>
-                                </span>
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="wsb-element-78721e78-b72b-4249-9c35-5c3cbbca2cb5" class="wsb-element-text" data-type="element">
-                        <div class="txt ">
-                            <p style="text-align: center;">
-                                <span style="color: rgb(0, 102, 153);">
-                                    <span style="font-size: 36px;">
-                                        <span style="font-family: arizonia;">And I couldn't be happier</span>
-                                </span>
-                                </span>
-                                <br>
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Doves - is this used?? --> 
-                    <div id="wsb-element-613128a6-d271-4896-bd4e-5a6dd347a890" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="customStyle">
-                                <img src="//nebula.wsimg.com/78ae4d8c045eb3b0965695bd10e692c4?AccessKeyId=1E4C21C6A7310F3E5ED8&amp;disposition=0&amp;alloworigin=1" style="vertical-align:middle;width:304px;height:201px;">
-                            </div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-0707d0c8-cb69-4510-bb8c-6255d91307b2" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img">
-                                <img src="/content/img/big-heart.png" style="vertical-align:middle;width:500px;height:500px;">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Text Slideshow -->
-                    <div id="wsb-element-a02fea27-475f-4346-a12e-605dd2adb52e" class="wsb-element-gallery" data-type="element">
-                        <div class="customStyle ">
-                            <div id="desktop-a02fea27-475f-4346-a12e-605dd2adb52e" class="wsb-media-gallery" style="height: 300px; width: 474px;">
-                                <div class="wsb-media-gallery-arrows-left-arrow" style="top: 128px;"></div>
-                                <div style="border: solid 15px #f5f5f5; margin-left: 22px; height: 270px;" class="wsb-media-gallery-slider bordered">
-                                    <img class="wsb-media-content" src="" />
-                                </div>
-                                <div class="wsb-media-gallery-arrows-right-arrow" style="top: 128px;left: 474px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div id="wsb-element-7269bf62-acae-475b-a090-6d54be205d1d" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img"><img src="/content/img/resources-083c6766-c926-4947-a057-975e8f3b6b35-roselove.gif" style="position:absolute;width:307px;height:342px;top:0px;left:0px;"></div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-15bb89ec-720b-4c00-8d4f-1bfbd074f971" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="customStyle"><img src="/content/img/cloud.png" style="vertical-align:middle;width:1002px;height:393px;"></div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-d085f668-e0b5-4aa8-9de1-4b537b167a7e" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img"><img src="/content/img/resources-9e9789fc-f0b6-44cb-9963-3e6b8bb1c5a1-cropped-heart.png" style="vertical-align:middle;width:28px;height:25px;"></div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-8164853e-b54c-4ef1-812a-32a5a9da5c6c" class="wsb-element-text" data-type="element">
-                        <div class="txt ">
-                            <p><span style="color: rgb(255, 255, 255);"><span style="font-size: 48px;"><span style="font-family: pacifico;">I L&nbsp;&nbsp; v My Wife<br></span></span>
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="wsb-element-03291300-4260-46a1-bfed-12935744b472" class="wsb-element-text" data-type="element">
-                        <div class="txt ">
-                            <p><span style="color: rgb(255, 255, 0);"><span style="font-size: 36px;"><span style="font-family: romanesco;">Always &amp; Forever<br></span></span>
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="wsb-element-cbf86f34-5b96-400f-85f4-6e118601e7c9" class="wsb-element-text" data-type="element">
-                        <div class="txt ">
-                            <p style="text-align: center;"><span style="color: rgb(0, 0, 128);"><span style="font-size: 20px;"><span style="font-family: pacifico;">This website is dedicated to my partner in life, my soul mate, my best friend, the mother of my child..., the woman I love.<br></span></span>
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="wsb-element-9895c99f-0c14-4b79-b076-eab98df772c4" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="customStyle"><img src="/content/img/wife-cropped.bmp" style="vertical-align:middle;width:304px;height:304px;"></div>
-                        </div>
-                    </div>
-
-                    <!-- Passing clouds thing -->
-                    <div id="wsb-element-083b0c45-0a93-4e66-b262-761d7204f24d" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="img"><img src="/content/img/passing-clouds.gif" style="position:absolute;width:450px;height:450px;top:0px;left:0px;"></div>
-                        </div>
-                    </div>
-
-                    <!-- Wedding div --> 
-                    <div id="wsb-element-c33af112-d6c5-4339-8017-7444cff7ca32" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="customStyle"><img src="/content/img/wedding.png" style="vertical-align:middle;width:295px;height:197px;"></div>
-                        </div>
-                    </div>
-                    <div id="wsb-element-02773350-a24b-467b-962f-b29909aa988c" class="wsb-element-text" data-type="element">
-                        <div class="txt ">
-                            <p style="text-align: center;"><span style="color: rgb(0, 102, 153);"><span style="font-size: 48px;"><span style="font-family: pacifico;">Welcome to</span></span>
-                                </span><span style="color: rgb(0, 102, 153);"><br></span></p>
-                            <p style="text-align: center;"><span style="color: rgb(0, 102, 153);"><span style="font-size: 48px;"><span style="font-family: pacifico;">I L&nbsp;&nbsp;v My Wife.com<br></span></span>
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="wsb-element-2b0e249d-0d17-4354-8997-339cd87593ac" class="wsb-element-image" data-type="element">
-                        <div class="wsb-image-inner ">
-                            <div class="customStyle"><img src="/content/img/cropped-happy.jpg" style="vertical-align:middle;width:258px;height:183px;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src='/content/script/main.js'></script>
+                if (pw == p) {
+                    window.location.href = "7bacf735-bb7a-4365-8edc-f457620a2c69.html";
+                } else {
+                    var error = $(".imgcontainer h2");
+                    error.css("color", "red");
+                    error.text("Incorrect password. Please try again");
+                    $("#pws").select();
+                }
+                return false;
+            }
+        })
+    </script>
 </body>
 </html>
