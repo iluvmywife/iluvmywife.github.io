@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
     <script src="/content/script/jquery-3.2.1.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+    <script>
+        if (!document.cookie || document.cookie.indexOf("ilmwsic") == -1) {
+            window.location.href = "/";
+        }
+    </script>
 </head>
 
 <body>
