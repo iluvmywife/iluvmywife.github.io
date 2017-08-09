@@ -3,7 +3,6 @@
 <head>    
     <style>
     .main {
-        border: 3px solid #f1f1f1;
         font-family: sans-serif;
         width: 400px;
         margin: auto;
@@ -74,10 +73,9 @@
 <body>
 
 <div class='main'>
+  <h2></h2>
   <div class="container">
     <input type="password" placeholder="Enter Password" name="psw" required id="pws">
-        
-    <button id='login'>Login</button>
   </div>
 </div>
     <script>
@@ -103,9 +101,9 @@
                     document.cookie = "ilmwsic=true";
                     window.location.href = "7bacf735-bb7a-4365-8edc-f457620a2c69.html";
                 } else {
-                    var error = $(".imgcontainer h2");
+                    var error = $("h2");
                     error.css("color", "red");
-                    error.text("Incorrect password. Please try again");
+                    error.text("nope");
                     $("#pws").select();
                 }
                 return false;
