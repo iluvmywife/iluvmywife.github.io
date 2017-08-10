@@ -18,10 +18,10 @@
     function displaySlide(slideNumber) {
         var slide = textGalleryList[slideNumber];
         
-        textGalleryContent.hide();
+        textGalleryContent.hide(500);
         textGalleryContent.attr("src", slide.src);
-        textGalleryContent.attr("style", slide.style);
-        textGalleryContent.show();
+        textGalleryContent.css("margin-top", slide["margin-top"]);
+        textGalleryContent.show(500);
     }
 
     function advanceSlide() {

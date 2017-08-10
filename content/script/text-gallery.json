@@ -5,7 +5,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 96px;"
+        "margin-top": "96px;"
     }, 
     {
         "id": "69ed59891906256eb35c5c6604a7398b:1E4C21C6A7310F3E5ED8",
@@ -13,7 +13,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 88px;"
+        "margin-top": "88px;"
     }, 
     {
         "id": "1cd3a0a1513a70bafd9fc2535ae3a55d:1E4C21C6A7310F3E5ED8",
@@ -21,7 +21,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 88px;"
+        "margin-top": "88px;"
     }, 
     {
         "id": "926e16e9ab59c350bc0f538e0e082d84:1E4C21C6A7310F3E5ED8",
@@ -29,7 +29,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 107px;"
+        "margin-top": "107px;"
     }, 
     {
         "id": "03aa7fbfdc2ce1ebe696f28558926e62:1E4C21C6A7310F3E5ED8",
@@ -37,7 +37,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 96px;"
+        "margin-top": "96px;"
     }, 
     {
         "id": "362798e9f51791b4e20e61c54e9d9f67:1E4C21C6A7310F3E5ED8",
@@ -45,7 +45,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 114px;"
+        "margin-top": "114px;"
     }, 
     {
         "id": "fb90a1d549a7ded2aabc16ca9376560e:1E4C21C6A7310F3E5ED8",
@@ -53,7 +53,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 109px;"
+        "margin-top": "109px;"
     }, 
     {
         "id": "d962bc52ee857f41d9b439fa865b235a:1E4C21C6A7310F3E5ED8",
@@ -61,7 +61,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 96px;"
+        "margin-top": "96px;"
     }, 
     {
         "id": "cbc62d42dbfa54a8b29bfdf57e2627c9:1E4C21C6A7310F3E5ED8",
@@ -69,7 +69,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 89px;"
+        "margin-top": "89px;"
     }, 
     {
         "id": "6d31d6d0a23646cd5d4ebbf22efb4587:1E4C21C6A7310F3E5ED8",
@@ -77,7 +77,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 96px;"
+        "margin-top": "96px;"
     }, 
     {
         "id": "f2f7755956abe03dc8b22729b283d598:1E4C21C6A7310F3E5ED8",
@@ -85,7 +85,7 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 6px;"
+        "margin-top": "6px;"
     }, 
     {
         "id": "688a51a47e6b90270c9329e1bc819087:1E4C21C6A7310F3E5ED8",
@@ -93,6 +93,6 @@
         "caption": "",
         "link": "",
         "type": "image",
-        "style": "margin-top: 92px;"
+        "margin-top": "92px;"
     }
 ]
