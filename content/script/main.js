@@ -21,7 +21,7 @@
         var tgc = $(".wsb-media-content");
         tgc.hide(500);
         tgc.attr("src", slide.src);
-        tgc.css("margin-top", slide["margin-top"]);
+        tgc[0].style.marginTop = slide["margin-top"];
         tgc.show(500);
     }
 
