@@ -13,8 +13,6 @@
     function initializeGallery(data) {
         textGalleryList = data;
         displaySlide(0);
-
-        timer = setTimeout(advanceSlide, 4000);
     }
 
     function displaySlide(slideNumber) {
